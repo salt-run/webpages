@@ -1,0 +1,87 @@
+header {
+  width: 100%;
+  background-color: #2c3e50;
+  height: 54px;
+}
+
+header ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+header ul a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+header li {
+  float: left;
+  width: auto;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color:#2c3e50;
+  padding: 20px 0 10px 0;
+  color: white;
+  margin: auto;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  text-align: center;
+}
+
+.wrapper{
+  padding-bottom: 100px;
+}
+.cont{
+  margin: 0 auto;
+  position: relative;
+  min-height: 100%;
+}
+
+.to_fuss_over {
+  height: 300px;
+  border: groove;
+  background-color: #FFEF85;
+}
+
+.research_and_development{
+  height: 150px;
+  border: groove;
+  background-color: #FFEF85;
+}
+
+.awards, .research_result{
+  margin-top: 10px;
+  height: 140px;
+  border: groove;
+  background-color: #FFEF85;
+}
+
+.contents{
+  margint-botoom: 200px;
+}
+.contents li{
+  background-color: #FFEEFF;
+  list-style: none;
+  height: 50px;
+  border-style: inset;
+}
